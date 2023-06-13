@@ -397,11 +397,7 @@ outputs:
     - html
     - json
     - rss
-  home:
-    - html
-    - json
-    - rss
-    - svg
+
 
 
 outputFormats:
