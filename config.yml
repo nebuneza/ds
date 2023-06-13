@@ -402,11 +402,7 @@ outputs:
     - json
     - rss
     - svg
-  term:
-    - html
-    - json
-    - rss
-    - svg
+
 
 outputFormats:
   svg:
