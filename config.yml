@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Dampsoft GmbH
+title: Eggsample Status
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -64,7 +64,7 @@ buildFuture: true
 #
 # See:  https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
 # Also: https://www.w3schools.com/tags/ref_language_codes.asp
-languageCode: de
+languageCode: en
 
 # What translation file should cState use?
 # You can also define whether missing
@@ -78,7 +78,7 @@ languageCode: de
 # than English! When tested with Lithuanian,
 # it would add unnecesary placeholders to
 # values that were intentionally empty.
-defaultContentLanguage: de
+defaultContentLanguage: en
 
 # What is the hostname or path to the root?
 # Where is the site hosted?
@@ -97,7 +97,7 @@ defaultContentLanguage: de
 #
 # Broken example:
 # baseUrl: /
-baseURL: https://status.dampsoft.de
+baseURL: https://example.com
 
 # For features like Last modified, you
 # need to use a Git repository. If you
@@ -109,7 +109,7 @@ baseURL: https://status.dampsoft.de
 #
 # We recommend to keep this at `true`.
 # BOOLEAN; `true`, `false`
-enableGitInfo: true
+enableGitInfo: false
 
 
 ############################################################
@@ -269,7 +269,7 @@ params:
   #
   # Default: `false`
   # BOOLEAN; `true`, `false`
-  disableDarkMode: true
+  disableDarkMode: false
 
   # Should we show the logo or the title
   # of the status page?
@@ -397,8 +397,16 @@ outputs:
     - html
     - json
     - rss
-
-
+  home:
+    - html
+    - json
+    - rss
+    - svg
+  term:
+    - html
+    - json
+    - rss
+    - svg
 
 outputFormats:
   svg:
