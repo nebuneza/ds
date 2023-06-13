@@ -97,7 +97,7 @@ defaultContentLanguage: de
 #
 # Broken example:
 # baseUrl: /
-baseURL: https://www.dampsoft.de
+baseURL: https://status.dampsoft.de
 
 # For features like Last modified, you
 # need to use a Git repository. If you
@@ -269,7 +269,7 @@ params:
   #
   # Default: `false`
   # BOOLEAN; `true`, `false`
-  disableDarkMode: false
+  disableDarkMode: true
 
   # Should we show the logo or the title
   # of the status page?
